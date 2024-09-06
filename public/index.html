@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czat Głosowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Czat Głosowy</h1>
+        <button id="start-call">Rozpocznij Rozmowę</button>
+        <button id="end-call" disabled>Zakończ Rozmowę</button>
+        <div id="localVideo"></div>
+        <div id="remoteVideo"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
